@@ -17,4 +17,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/mailing-list', 'MailingListController@save')->name('mailing-list');
 
