@@ -19,6 +19,8 @@ class CreateMailingListTable extends Migration
           $table->string('email')->unique();
           $table->enum('account_type', ['student', 'tutor', 'both']);
           $table->boolean('email_verified');
+          $table->timestamps();
+          $table->softDeletes();
         });
     }
 
