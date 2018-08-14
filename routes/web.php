@@ -18,3 +18,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+// Mailing List
+Route::post('/mailing-list', 'MailingListController@save')->name('mailing-list');
+Route::get('/thanks', function () {
+  return view('thanks');
+})->name('thanks');
