@@ -71,9 +71,9 @@
                                               <div class="relative">
                                                 {!! $errors->first('account_type', '<span class="text-red-dark text-sm mt-2">:message</span>') !!}
                                                 <select name="account_type" id="account_type" class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey {{ $errors->has('account_type') ? 'border-red-dark' : 'border-grey-light' }}" required>
-                                                  <option>Being a Student</option>
-                                                  <option>Being a Tutor</option>
-                                                  <option>Both</option>
+                                                  <option value="student">Being a Student</option>
+                                                  <option value="tutor">Being a Tutor</option>
+                                                  <option value="both">Both</option>
                                                 </select>
                                                 <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
                                                   <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
