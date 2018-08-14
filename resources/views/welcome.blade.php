@@ -33,9 +33,11 @@
                         Fortnite tutors
                     </h1>
 
-                    <div class="flex items-center px-6 md:px-0">
+                    <p class="w-full max-w-md md:mx-auto">
+                        Our platform will connect tutors and students interested in increasing their Fornite skills. We are working dilegently to launch as soon as possible. Join the mailing list below for updates and exclusive content.
+                    </p>
 
-                    </div>
+                    <br>
 
                     <div class="flex items-center px-6 md:px-0">
                       <div class="w-full max-w-md md:mx-auto">
